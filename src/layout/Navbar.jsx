@@ -46,6 +46,7 @@ export const Navbar = () => {
           </div>
         </div>
 
+
         {/* RIGHT – Profile Avatar + Badges */}
         <div className="relative z-50 hidden md:flex items-center">
           {/* Avatar */}
