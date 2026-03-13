@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
+      "Working with Supam was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
     author: "Michael Rodriguez",
     role: "Product Manager, Digital Solutions",
     avatar:
