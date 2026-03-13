@@ -16,7 +16,7 @@ const experiences = [
   {
     period: "May 2025 — July 2025",
     role: "Software Engineering Intern",
-    company: "KOTS",
+    company: "Tailored AI",
     description:
       "Contributed to a semantic QA system for customer support using embedding-based retrieval, building a PDF ingestion and MiniLM indexing pipeline for 10K+ document segments and improving search accuracy while enabling Docker + GitHub Actions CI/CD deployment to AWS EC2.",
     technologies: [
