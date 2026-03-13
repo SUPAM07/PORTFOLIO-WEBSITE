@@ -4,7 +4,7 @@ const experiences = [
     role: "Research Intern",
     company: "IISC Bangalore",
     description:
-      "Developed LLM-driven backend systems and autonomous AI agents that reduced manual content operations by 95% and improved content delivery speed by 10× through end-to-end automation.",
+      "Contributed to a high-throughput C++17 Deep Packet Inspection engine that parses network packets and extracts TLS SNI for HTTPS classification, using a 16-thread flow-aware pipeline sustaining 470K+ packets/sec and improving throughput by 26% through optimized hashing.",
     technologies: [
       "C++",
       "Coputer Networks",
