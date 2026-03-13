@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
+      "Supam's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
     author: "Emily Watson",
     role: "Engineering Lead, StartUp Labs",
     avatar:
