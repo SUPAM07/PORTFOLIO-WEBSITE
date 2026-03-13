@@ -10,7 +10,6 @@ const experiences = [
       "Coputer Networks",
       "TCP/UDP Packets",
       "Load Balancing",
-     
       "REST APIs",
     ],
     current: true,
