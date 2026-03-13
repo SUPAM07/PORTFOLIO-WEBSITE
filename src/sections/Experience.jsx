@@ -18,7 +18,7 @@ const experiences = [
     role: "Software Engineering Intern",
     company: "KOTS",
     description:
-      "Built scalable backend systems with 12+ RESTful APIs and optimized relational and NoSQL schemas supporting 10k+ records. Integrated LLMs for outfit recommendation, improving accuracy by ~30% and reducing return rates by 15%.",
+      "Contributed to a semantic QA system for customer support using embedding-based retrieval, building a PDF ingestion and MiniLM indexing pipeline for 10K+ document segments and improving search accuracy while enabling Docker + GitHub Actions CI/CD deployment to AWS EC2.",
     technologies: [
       "Node.js",
       "MongoDB",
