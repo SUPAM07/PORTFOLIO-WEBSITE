@@ -6,10 +6,10 @@ const experiences = [
     description:
       "Contributed to a high-throughput C++17 Deep Packet Inspection engine that parses network packets and extracts TLS SNI for HTTPS classification, using a 16-thread flow-aware pipeline sustaining 470K+ packets/sec and improving throughput by 26% through optimized hashing.",
     technologies: [
-      "C++",
-      "Coputer Networks",
-      "TCP/UDP Packets",
-      "Load Balancing",
+      "C++17",
+      "Multithreading (std::thread)",
+      "Networking Protocols (Ethernet, IPv4, TCP/UDP)/UDP Packets",
+      "Hashing Algorithms",
     ],
     current: true,
   },
@@ -21,7 +21,7 @@ const experiences = [
       "Contributed to a semantic QA system for customer support using embedding-based retrieval, building a PDF ingestion and MiniLM indexing pipeline for 10K+ document segments and improving search accuracy while enabling Docker + GitHub Actions CI/CD deployment to AWS EC2.",
     technologies: [
       "Python",
-      "MongoDB",
+      "PDF ",
       "MySQL",
       "Google Gemini",
       "OpenAI",
