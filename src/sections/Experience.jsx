@@ -1,15 +1,15 @@
 const experiences = [
   {
-    period: "June 2025 — July 2025",
-    role: "AI/ML Intern",
-    company: "BIZ Tech Services",
+    period: "January 2026 — April 2026",
+    role: "Research Intern",
+    company: "IISC Bangalore",
     description:
       "Developed LLM-driven backend systems and autonomous AI agents that reduced manual content operations by 95% and improved content delivery speed by 10× through end-to-end automation.",
     technologies: [
-      "Python",
-      "LangChain",
-      "Google Gemini API",
-      "OpenAI API",
+      "C++",
+      "Coputer Networks",
+      "TCP/UDP Packets",
+      "Load Balancing",
       "Node.js",
       "REST APIs",
     ],
