@@ -12,6 +12,7 @@ const projects = [
     github: "https://github.com/SUPAM07/Distributed-Rate-Limiter",
   },
   {
+    
     title: "AI Component Generator",
     description:
       "AI-powered developer tool that generates production-ready React + Tailwind components from natural language prompts, featuring live preview and real-time code editing.",
