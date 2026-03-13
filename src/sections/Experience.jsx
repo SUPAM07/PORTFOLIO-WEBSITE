@@ -14,7 +14,7 @@ const experiences = [
     current: true,
   },
   {
-    period: "Sept 2024 — Nov 2024",
+    period: "May 2025 — July 2025",
     role: "Software Engineering Intern",
     company: "KOTS",
     description:
