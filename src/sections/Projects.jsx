@@ -3,6 +3,15 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
+    title: "FluxGate",
+    description:
+      "a Redis-backed distributed rate limiter using Lua scripts for atomic updates, implementing five rate-limiting algorithms and achieving 796k+ requests/sec with <2ms P95 latency along with adaptive rate control and Prometheus monitoring.",
+    image: "/projects/photo4.png",
+    tags: ["Express.js", "Typescript", "Lua", "Redis"],
+    link: "#",
+    github: "https://github.com/SUPAM07/Distributed-Rate-Limiter",
+  },
+  {
     title: "AI Component Generator",
     description:
       "AI-powered developer tool that generates production-ready React + Tailwind components from natural language prompts, featuring live preview and real-time code editing.",
@@ -35,15 +44,6 @@ const projects = [
     tags: ["Python", "OpenCV", "Tesseract OCR", "NumPy", "Image Processing"],
     link: "#",
     github: "https://github.com/SUPAM07/AI-Powered-Document-Scanner-with-OCR",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
   },
 ];
 
