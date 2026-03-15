@@ -48,21 +48,23 @@ export const About = () => {
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
-              <p>
-              B.Tech Computer Science student at NIT Durgapur with strong fundamentals in DSA, OOPS, DBMS,
-              and hands-on experience in full-stack development and LLM-powered systems (React, Node.js, Python, REST APIs).
-              </p>
-              <p>
-              AI/ML Intern at Automonize AI, where I reduced manual operations by 95% and improved delivery speed by 10×
-              using AI agents and prompt engineering; Software Engineering Intern at KOTS, building scalable APIs and
-              integrating Google Gemini & OpenAI to improve recommendation accuracy by ~30%. 
-              Built projects including an AI Component Generator and a Computer Vision–based Rubik’s Cube Solver.
-              </p>
-              <p>
-               Solved 300+ DSA problems (Codeforces rating 1175), Finalist at Amdocs Gen-AI Graduate Hackathon,
-               Oracle Cloud AI Certified, KVPY selectee, District Rank 12 (HS 2022),
-               and District-level Cricket Champion (North 24 Parganas).
-              </p>
+            <p>
+             B.Tech Computer Science student at NIT Durgapur with strong fundamentals in Data Structures & Algorithms,
+             Object-Oriented Programming, DBMS, and Computer Networks.
+            </p>
+
+            <p>
+             Research Intern at IISc Bangalore working on a high-throughput Deep Packet Inspection (DPI) engine in C++17
+             for parsing Ethernet/IP/TCP packets and extracting TLS SNI for encrypted traffic classification.
+             Previously worked as a Software Engineer Intern at Tailored AI building semantic search systems
+             using embedding-based retrieval and scalable backend infrastructure.
+            </p>
+
+            <p>
+            Built distributed backend systems including FluxGate, a Redis-backed distributed rate limiter
+            handling 796K+ requests/sec with less than 2ms P95 latency. Strong interest in high-performance systems,
+            distributed systems, and backend engineering.
+            </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
