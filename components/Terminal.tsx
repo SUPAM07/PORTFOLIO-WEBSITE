@@ -29,7 +29,7 @@ const commands: Record<string, () => string[]> = {
     '  echo      - Echo text (usage: echo <text>)',
   ],
   about: () => [
-    "Hi, I'm Nitin!",
+    "Hi, I'm Supam!",
     'A passionate full-stack developer who loves building beautiful,',
     'functional web applications. This portfolio is styled like VS Code',
     'because I spend most of my time here anyway.',
@@ -53,10 +53,10 @@ const commands: Record<string, () => string[]> = {
   ],
   contact: () => [
     'Contact Information:',
-    '  Email:    hello@example.com',
-    '  GitHub:   github.com/itsnitinr',
-    '  Twitter:  @itsnitinr',
-    '  LinkedIn: linkedin.com/in/itsnitinr',
+    '  Email:    supamroy108@example.com',
+    '  GitHub:   github.com/SUPAM07',
+    '  Twitter:  @SupamRoy4',
+    '  LinkedIn: linkedin.com/in/supamroy2003',
   ],
   themes: () => [
     'Available themes:',
