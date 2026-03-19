@@ -13,11 +13,11 @@ const AboutPage = () => {
         <header className={styles.header}>
           <div className={styles.headerContent}>
             <div className={styles.headerText}>
-              <h1 className={styles.name}>Nitin Ranganath</h1>
-              <p className={styles.role}>Software Engineer at Tessact</p>
+              <h1 className={styles.name}>Supam Roy</h1>
+              <p className={styles.role}>Software Engineer </p>
               <div className={styles.location}>
                 <span className={styles.dot} />
-                Mumbai, India
+                Kolkata, India
               </div>
             </div>
           </div>
@@ -70,27 +70,34 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Present</span>
+                  <span className={styles.expPeriod}>JAN,2026 - Present</span>
                 </div>
-                <h3 className={styles.expRole}>Software Engineer 2</h3>
-                <p className={styles.expCompany}>Tessact</p>
+                <h3 className={styles.expRole}>Research Intern</h3>
+                <p className={styles.expCompany}>IISC Bangalore</p>
                 <ul className={styles.expList}>
-                  <li>Leading frontend development with a lean team of 4 engineers</li>
-                  <li>Building a next-gen video creation suite for professionals</li>
-                  <li>Implemented collaborative video reviewing and editing features</li>
-                  <li>Maintaining in-house component library, icon library and website</li>
+                  <li>Contributed to building a high-throughput Deep Packet Inspection (DPI) engine</li>
+                  <li>Collaborated in designing a 16-thread packet processing pipeline using Five-Tuple consistent hashing</li>
+                  <li>Profiled packet distribution across worker threads, identifying hash-based load imbalance that starved threads
+                  and improving throughput by 26% after redesigning the hashing strategy</li>
+                 
                 </ul>
               </div>
 
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Freelance</span>
+                  <span className={styles.expPeriod}>MAY,2025 - JULY,2025</span>
                 </div>
-                <h3 className={styles.expRole}>Technical Writer</h3>
-                <p className={styles.expDesc}>
-                  Contributing to publications like <strong>100ms Blog</strong>, 
-                  <strong>LogRocket Blog</strong>, and <strong>DEV.to</strong>.
-                </p>
+                <h3 className={styles.expRole}>SDE Intern</h3>
+                <p className={styles.expCompany}>Tailored AI</p>
+                <ul className={styles.expList}>
+                  <li>Contributed to developing a semantic QA system for a customer support knowledge base, enabling
+                  natural-language queries to retrieve relevant documentation using embedding-based retrieval</li>
+                  <li>Built components of a document ingestion pipeline that parsed PDFs, chunked text (∼500 tokens), and
+                  indexed 10K+ segments using MiniLM embeddings for semantic search</li>
+                  <li>Improved retrieval accuracy using top-k vector similarity search (k=3) and assisted with Docker + GitHub
+                  Actions CI/CD deployment to AWS EC2, reducing release time from 1 hour to less than 5 minutes</li>
+                 
+                </ul>
               </div>
             </div>
           </section>
@@ -158,7 +165,7 @@ const AboutPage = () => {
               
               <div className={styles.writingLinks}>
                 <a 
-                  href="https://www.100ms.live/blog/author/nitin" 
+                  href="##" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={styles.writingLink}
@@ -168,7 +175,7 @@ const AboutPage = () => {
                 </a>
                 
                 <a 
-                  href="https://blog.logrocket.com/author/nitinranganath/" 
+                  href="##" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={styles.writingLink}
@@ -178,7 +185,7 @@ const AboutPage = () => {
                 </a>
                 
                 <a 
-                  href="https://dev.to/itsnitinr" 
+                  href="##" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={styles.writingLink}
