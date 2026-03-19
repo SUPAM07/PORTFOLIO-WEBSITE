@@ -15,8 +15,9 @@ export const metadata: Metadata = {
 export const revalidate = 600;
 
 async function getGithubData() {
+  const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'SUPAM07';
   const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`
+    `https://api.github.com/users/${username}`
   );
   if (!userRes.ok) {
     throw new Error(`Failed to fetch user: ${userRes.status}`);
@@ -24,7 +25,7 @@ async function getGithubData() {
   const user: User = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?sort=pushed&per_page=6`
+    `https://api.github.com/users/${username}/repos?sort=pushed&per_page=6`
   );
   if (!repoRes.ok) {
     throw new Error(`Failed to fetch repos: ${repoRes.status}`);
@@ -121,7 +122,7 @@ export default async function GithubPage() {
           <h2 className={styles.sectionTitle}>Contribution Activity</h2>
           <div className={styles.contributions}>
             <GitHubCalendar
-              username={process.env.NEXT_PUBLIC_GITHUB_USERNAME!}
+              username={process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'SUPAM07'}
               hideColorLegend
               hideMonthLabels
               colorScheme="dark"
