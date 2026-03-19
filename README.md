@@ -1,8 +1,23 @@
-# VSCode Portfolio Website
+# 🧑‍💻 VSCode Portfolio Website
 
-A stunning Visual Studio Code themed developer portfolio website built with modern web technologies. This project perfectly simulates the look and feel of the popular VSCode editor, providing a unique and engaging experience for visitors to explore your work, skills, and background.
+A stunning **Visual Studio Code themed developer portfolio** built with modern web technologies.  
+It replicates the VSCode experience to showcase your work, skills, and background in a unique and interactive way.
 
-![VSCode Portfolio Banner](https://drive.google.com/file/d/1L5fOe_1rYnFHpshkyYGBN8dlVlJZn12_/view?usp=drive_link)
+---
+
+## 🚀 Live Demo
+
+🔗 https://portfolio-website-vueh.vercel.app/
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="./assets/home.png" width="90%" alt="VSCode Portfolio Preview"/>
+</p>
+
+---
 
 ## ✨ Features
 
