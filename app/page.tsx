@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className={styles.intro}>
             <p className={styles.greeting}>Hello, I&apos;m</p>
             
-            <h1 className={styles.name}>Nitin Ranganath</h1>
+            <h1 className={styles.name}>Supam Roy</h1>
             
             <p className={styles.role}>Full Stack Developer</p>
             
@@ -40,7 +40,7 @@ export default function HomePage() {
 
           <div className={styles.links}>
             <a 
-              href="https://github.com/itsnitinr" 
+              href="https://github.com/SUPAM07" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.link}

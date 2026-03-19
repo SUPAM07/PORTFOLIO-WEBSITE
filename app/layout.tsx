@@ -7,28 +7,28 @@ import '@/styles/themes.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Nitin Ranganath | Portfolio',
-    template: 'Nitin Ranganath | %s',
+    default: 'Supam Roy | Portfolio',
+    template: 'Supam Roy | %s',
   },
   description:
-    "Nitin Ranganath is an avid full stack web developer building websites and applications you'd love to use",
+    "Supam Roy is an avid full stack web developer building websites and applications you'd love to use",
   keywords: [
-    'nitin ranganath',
-    'nitin',
-    'ranganath',
+    'supam roy',
+    'supam',
+    'roy',
     'web developer portfolio',
-    'nitin web developer',
-    'nitin developer',
+    'supam web developer',
+    'supam developer',
     'mern stack',
-    'nitin ranganath portfolio',
+    'supam roy portfolio',
     'vscode-portfolio',
   ],
   openGraph: {
-    title: "Nitin Ranganath's Portfolio",
+    title: "Supam Roy's Portfolio",
     description:
       "A full-stack developer building websites that you'd like to use.",
-    images: ['https://imgur.com/4zi5KkQ.png'],
-    url: 'https://vscode-portfolio.vercel.app',
+    images: ['https://drive.google.com/file/d/1L5fOe_1rYnFHpshkyYGBN8dlVlJZn12_/view?usp=drive_link'],
+    url: '##',
   },
   twitter: {
     card: 'summary_large_image',
