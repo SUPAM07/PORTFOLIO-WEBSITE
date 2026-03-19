@@ -33,6 +33,5 @@ yarn-error.log*
 .env*.local
 
 #images
-public/
 .env
 .env
