@@ -206,8 +206,9 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                Aside from programming and writing, I enjoy reading dystopian novels, 
-                listening to calm piano music, or just enjoying some downtime.
+              Beyond programming, I follow a disciplined fitness enthusiast,
+              train as a marathon runner and Inter-District Cricket Championship Winner.
+              I enjoy music to relax and recharge.
               </p>
             </div>
           </section>
