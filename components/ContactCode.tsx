@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: 'twitter',
-    link: 'Supam Roy',
-    href: '##',
+    link: 'SupamRoy4',
+    href: 'https://x.com/SupamRoy4',
   },
   {
     social: 'instagram',
