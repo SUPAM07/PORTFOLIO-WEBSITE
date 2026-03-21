@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import Layout from '@/components/Layout';
+import Layout from '@/components/layout/Layout';
 
 import '@/styles/globals.css';
 import '@/styles/themes.css';
