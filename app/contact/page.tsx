@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-import ContactCode from '@/components/ContactCode';
+import ContactCode from '@/components/features/ContactCode';
 
 import styles from '@/styles/ContactPage.module.css';
 
