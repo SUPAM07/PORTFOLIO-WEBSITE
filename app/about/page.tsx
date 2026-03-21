@@ -24,7 +24,7 @@ const AboutPage = () => {
           
           <div className={styles.headerActions}>
             <a 
-              href="https://github.com/itsnitinr" 
+              href="https://github.com/SUPAM07" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.iconButton}
@@ -165,34 +165,24 @@ const AboutPage = () => {
               
               <div className={styles.writingLinks}>
                 <a 
-                  href="##" 
+                  href="https://medium.com/@supamroy8" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={styles.writingLink}
                 >
-                  <span>100ms Blog</span>
+                  <span>Medium</span>
                   <VscLinkExternal size={14} />
-                </a>
-                
-                <a 
-                  href="##" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className={styles.writingLink}
-                >
-                  <span>LogRocket Blog</span>
-                  <VscLinkExternal size={14} />
-                </a>
-                
-                <a 
-                  href="##" 
+                </a>    
+
+                 <a 
+                  href="https://dev.to/supam07" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={styles.writingLink}
                 >
                   <span>DEV.to</span>
                   <VscLinkExternal size={14} />
-                </a>
+                </a>   
               </div>
             </div>
           </section>
