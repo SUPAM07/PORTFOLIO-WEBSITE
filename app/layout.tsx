@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       "A full-stack developer building websites that you'd like to use.",
     images: ['https://drive.google.com/file/d/1L5fOe_1rYnFHpshkyYGBN8dlVlJZn12_/view?usp=drive_link'],
-    url: 'https://localhost:3000',
+    url: 'https://portfolio-website-vueh.vercel.app/contact',
   },
   twitter: {
     card: 'summary_large_image',

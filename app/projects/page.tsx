@@ -15,7 +15,7 @@ const ProjectsPage = () => {
     <div className={styles.page}>
       <div className={styles.container}>
         <header className={styles.header}>
-          <h1 className={styles.title}>MAJOR PROJECT&apos;S 😃</h1>
+          <h1 className={styles.title}>MAJOR PROJECT&apos;S </h1>
         </header>
 
         <div className={styles.grid}>
