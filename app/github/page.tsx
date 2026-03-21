@@ -3,7 +3,7 @@ import Image from 'next/image';
 import GitHubCalendar from 'react-github-calendar';
 import { VscRepo, VscPerson, VscStarEmpty, VscRepoForked, VscLinkExternal, VscGithub } from 'react-icons/vsc';
 
-import RepoCard from '@/components/RepoCard';
+import RepoCard from '@/components/ui/RepoCard';
 import { Repo, User } from '@/types';
 
 import styles from '@/styles/GithubPage.module.css';
