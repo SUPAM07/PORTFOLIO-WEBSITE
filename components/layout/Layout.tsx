@@ -3,13 +3,13 @@
 import { useEffect, useState, useCallback } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 
-import Titlebar from '@/components/Titlebar';
-import Sidebar from '@/components/Sidebar';
-import Explorer from '@/components/Explorer';
-import Bottombar from '@/components/Bottombar';
-import Tabsbar from '@/components/Tabsbar';
-import Terminal from '@/components/Terminal';
-import CommandPalette from '@/components/CommandPalette';
+import Titlebar from './Titlebar';
+import Sidebar from './Sidebar';
+import Explorer from './Explorer';
+import Bottombar from './Bottombar';
+import Tabsbar from './Tabsbar';
+import Terminal from '../features/Terminal';
+import CommandPalette from '../features/CommandPalette';
 
 import styles from '@/styles/Layout.module.css';
 

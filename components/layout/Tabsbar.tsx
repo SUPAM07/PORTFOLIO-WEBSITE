@@ -1,4 +1,4 @@
-import Tab from '@/components/Tab';
+import Tab from './Tab';
 
 import styles from '@/styles/Tabsbar.module.css';
 
