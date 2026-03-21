@@ -16,7 +16,9 @@ export default function HomePage() {
             
             <h1 className={styles.name}>Supam Roy</h1>
             
-            <p className={styles.role}>Full Stack Developer</p>
+           <p className={styles.role}>
+            <span className={styles.typing}>Full Stack Developer</span>
+           </p>
             
             <div className={styles.divider} />
             
@@ -36,6 +38,10 @@ export default function HomePage() {
             <Link href="/about" className={styles.secondaryAction}>
               <span>Learn More</span>
             </Link>
+
+            <a href="/resume/supam_cv.pdf" target="_blank" rel="noopener noreferrer" className={styles.secondaryAction}>
+              <span>Resume</span>
+            </a>
           </div>
 
           <div className={styles.links}>
