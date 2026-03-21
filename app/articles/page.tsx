@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { VscBook, VscLinkExternal, VscGlobe } from 'react-icons/vsc';
 
-import ArticleCard from '@/components/ArticleCard';
+import ArticleCard from '@/components/ui/ArticleCard';
 
 import { Article } from '@/types';
 
@@ -14,21 +14,31 @@ export const metadata: Metadata = {
 export const revalidate = 60;
 
 async function getArticles(): Promise<Article[]> {
-  const res = await fetch(
-    'https://dev.to/api/articles/me/published',
-    {
-      headers: {
-        'api-key': process.env.DEV_TO_API_KEY!,
-      },
-    }
-  );
-
-  if (!res.ok) {
-    console.error(`Failed to fetch articles: ${res.status} ${res.statusText}`);
+  if (!process.env.DEV_TO_API_KEY) {
+    console.warn('DEV_TO_API_KEY is missing. Returning empty articles array.');
     return [];
   }
 
-  return res.json();
+  try {
+    const res = await fetch(
+      'https://dev.to/api/articles/me/published',
+      {
+        headers: {
+          'api-key': process.env.DEV_TO_API_KEY,
+        },
+      }
+    );
+
+    if (!res.ok) {
+      console.warn(`Failed to fetch articles: ${res.status} ${res.statusText}`);
+      return [];
+    }
+
+    return res.json();
+  } catch (error) {
+    console.warn('Error fetching articles:', error);
+    return [];
+  }
 }
 
 export default async function ArticlesPage() {
@@ -67,7 +77,7 @@ export default async function ArticlesPage() {
           </div>
 
           <a 
-            href="https://dev.to/itsnitinr"
+            href="https://dev.to/supam07"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.profileLink}
