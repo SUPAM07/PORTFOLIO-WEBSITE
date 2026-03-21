@@ -4,7 +4,7 @@ const contactItems = [
   {
     social: 'website',
     link: 'supamroy.com',
-    href: 'https://nitinranganath.com',
+    href: 'https://portfolio-website-vueh.vercel.app/contact',
   },
   {
     social: 'email',
