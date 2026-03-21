@@ -3,7 +3,7 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'supamroy.com',
+    link: 'supamroy.dev',
     href: 'https://portfolio-website-vueh.vercel.app/contact',
   },
   {
