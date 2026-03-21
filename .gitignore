@@ -34,3 +34,5 @@ yarn-error.log*
 
 #images
 .env
+.DS_Store
+tsconfig.tsbuildinfo
