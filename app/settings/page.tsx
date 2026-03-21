@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { VscColorMode } from 'react-icons/vsc';
 
 import { THEMES } from '@/lib/themes';
-import ThemeInfo from '@/components/ThemeInfo';
+import ThemeInfo from '@/components/ui/ThemeInfo';
 
 import styles from '@/styles/SettingsPage.module.css';
 
