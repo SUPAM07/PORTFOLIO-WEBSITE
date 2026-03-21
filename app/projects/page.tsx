@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { VscGithub, VscLinkExternal } from 'react-icons/vsc';
 
-import ProjectCard from '@/components/ProjectCard';
+import ProjectCard from '@/components/ui/ProjectCard';
 import { projects } from '@/data/projects';
 
 import styles from '@/styles/ProjectsPage.module.css';
