@@ -196,9 +196,9 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-              Beyond programming, I follow a disciplined fitness enthusiast,
-              train as a marathon runner and Inter-District Cricket Championship Winner.
-              I enjoy music to relax and recharge.
+              Outside of coding, I’m a fitness enthusiast,
+              marathon runner, and Inter-District Cricket Championship winner.
+              I also enjoy music as a way to unwind and recharge.
               </p>
             </div>
           </section>
