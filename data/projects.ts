@@ -5,13 +5,44 @@ export const projects: Project[] = [
   {
     title: 'ThrottleX',
     description:
-      'High-performance distributed rate limiter (Node.js + Redis) with 796k+ req/sec and adaptive traffic control.',
+      'ThrottleX is a high-performance, enterprise-grade distributed rate limiting engine built with Node.js, TypeScript, and Redis.',
     image: '/project_img/ThrottleX.png',
-    tags: ['Node.js', 'Redis', 'typescript', 'lua', 'prometheus', 'grafana'],
+    tags: ['Node.js', 'Redis', 'typescript', 'lua'],
     sourceCode: 'https://github.com/SUPAM07/ThrottleX',
     demo: 'https://throttlex-frontend1-vgpg.onrender.com/',
     slug: 'Throttlex',
   },
+  {
+    title: 'PrepSphere',
+    description:
+      'PrepSphere is an advanced, AI-powered career preparation platform designed to help tech candidates ace their interviews, build ATS-friendly resumes, and follow personalized learning roadmaps.',
+    image: '/project_img/prepsphere.png',
+    tags: ['react', 'Nodejs','PostgreSQL','MongoDB', 'Docker', 'typescript','AWS ECS'],
+    sourceCode: 'https://github.com/SUPAM07/PrepSphere',
+    demo: 'https://prep-sphere-smoky.vercel.app/',
+    slug: 'PrepSphere',
+  },
+  {
+    title: 'Synapse Social',
+    description:
+      'An enterprise-grade, event-driven SaaS for AI-powered social media scheduling, content ideation, and multi-channel publishing.',
+    image: '/project_img/synapse_social.png',
+    tags: ['NextJS','react', 'Tailwind CSS', 'Inngest', 'OAuth 2.0'],
+    sourceCode: 'https://github.com/SUPAM07/Synapse-Social',
+    demo: 'https://synapse-social.vercel.app/',
+    slug: 'Synapse-Social',
+  },
+
+  {
+    title: 'AIUS v1.0',
+    description:
+      'Attack & Intrusion Utility Suite: A cybersecurity research tool and live MITM engine for IEC 61850 substation automation systems, featuring a PyQt5-based passive PCAP editor and live MMS packet forging capabilities.',
+    image: '/project_img/AUIS.png',
+    tags: ['python', 'scapy', 'netfilterqueue', 'redis', 'PyQt5', 'cybersecurity'],
+    sourceCode: 'https://github.com/SUPAM07/Attack-tool',
+    slug: 'aius',
+  },
+
   {
     title: 'VSCode Portfolio',
     description:
@@ -22,20 +53,11 @@ export const projects: Project[] = [
     demo: 'https://portfolio-website-vueh.vercel.app/',
     slug: 'vscode-portfolio',
   },
-  {
-    title: 'PromptUI',
-    description:
-      'Developed an AI-driven React component generator using Gemini API with Monaco-based live editor for real-time rendering and faster iteration.',
-    image: '/project_img/PromptUI.png',
-    tags: ['react', 'Tailwind CSS', 'Javascript', 'Gemini API'],
-    sourceCode: 'https://github.com/SUPAM07/PromptUI',
-    demo: 'https://ai-component-generator-seven.vercel.app/',
-    slug: 'PromptUI',
-  },
+  
   {
     title: 'cubeVision',
     description:
-      'Computer vision Rubik’s Cube solver with real-time detection and optimal solving.',
+      'Real-time Rubik’s Cube solver using Computer Vision, achieving ~90% color detection accuracy and computing optimal solutions (≤20 moves) via the Kociemba two-phase algorithm.',
     image: '/project_img/cubeVision.png',
     tags: ['python', 'OpenCV', 'NumPy', 'kociemba'],
     sourceCode: 'https://github.com/SUPAM07/cubeVision',
