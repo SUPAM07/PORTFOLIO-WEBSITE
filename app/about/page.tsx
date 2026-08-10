@@ -47,15 +47,14 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                I&apos;m a software engineer passionate about crafting beautiful, performant 
-                web experiences. I primarily work with the JavaScript/TypeScript ecosystem 
-                and React, building products that people love to use.
+                I am a Computer Science & Engineering undergraduate at the National Institute of Technology Durgapur (Class of 2026), 
+                passionate about full-stack development, distributed systems, and security research.
               </p>
               
               <p className={styles.paragraph}>
-                While I specialize in frontend development, I enjoy working across the 
-                stack with Node.js, MongoDB, and Express to bring full-stack applications 
-                to life.
+                Through internships at IISc Bangalore and Tailored AI, I have architected real-time network penetration engines and built 
+                production-grade AI search copilots. I am an active LeetCode competitor with Knight status (Top 5.72% globally) and love 
+                solving complex algorithmic and optimization challenges.
               </p>
             </div>
           </section>
@@ -70,33 +69,31 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>JAN,2026 - Present</span>
+                  <span className={styles.expPeriod}>JAN, 2026 - APR, 2026</span>
                 </div>
                 <h3 className={styles.expRole}>Research Intern</h3>
-                <p className={styles.expCompany}>IISC Bangalore</p>
+                <p className={styles.expCompany}>IISc Bangalore</p>
                 <ul className={styles.expList}>
-                  <li>Contributed to building a high-throughput Deep Packet Inspection (DPI) engine</li>
-                  <li>Collaborated in designing a 16-thread packet processing pipeline using Five-Tuple consistent hashing</li>
-                  <li>Profiled packet distribution across worker threads, identifying hash-based load imbalance that starved threads
-                  and improving throughput by 26% after redesigning the hashing strategy</li>
-                 
+                  <li>Led a 4-member team in architecting a real-time MITM engine using ARP poisoning and Linux NetfilterQueue to
+                  intercept and forge live IEC 61850 traffic, preserving stateful TCP sessions while processing 1,000 packets/sec.</li>
+                  <li>Designed a multithreaded packet-processing pipeline with Redis TimeSeries for live stream buffering and historical
+                  payload retrieval, enabling stateful out-of-band packet manipulation with less than 0.5ms lookup latency.</li>
+                  <li>Developed a memory-efficient PyQt5 packet analysis application with streaming PCAP processing, enabling analysis and
+                  manipulation of 300+ MB network captures without GUI freezes or excessive memory consumption.</li>
                 </ul>
               </div>
 
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>MAY,2025 - JULY,2025</span>
+                  <span className={styles.expPeriod}>MAY, 2025 - JUL, 2025</span>
                 </div>
-                <h3 className={styles.expRole}>SDE Intern</h3>
+                <h3 className={styles.expRole}>Software Engineer Intern</h3>
                 <p className={styles.expCompany}>Tailored AI</p>
                 <ul className={styles.expList}>
-                  <li>Contributed to developing a semantic QA system for a customer support knowledge base, enabling
-                  natural-language queries to retrieve relevant documentation using embedding-based retrieval</li>
-                  <li>Built components of a document ingestion pipeline that parsed PDFs, chunked text (∼500 tokens), and
-                  indexed 10K+ segments using MiniLM embeddings for semantic search</li>
-                  <li>Improved retrieval accuracy using top-k vector similarity search (k=3) and assisted with Docker + GitHub
-                  Actions CI/CD deployment to AWS EC2, reducing release time from 1 hour to less than 5 minutes</li>
-                 
+                  <li>Engineered an end-to-end Document Copilot using FastAPI, React, and PostgreSQL, automating SEC 10-K/10-Q
+                  research workflows and saving analysts an estimated 3+ hours per week.</li>
+                  <li>Optimized SEC filing ingestion by eliminating I/O bottlenecks with asyncio-driven concurrent batching, reducing
+                  embedding latency by 30%.</li>
                 </ul>
               </div>
             </div>
@@ -114,9 +111,10 @@ const AboutPage = () => {
                 <div className={styles.skillCategory}>
                   <h4 className={styles.skillTitle}>Languages</h4>
                   <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>JavaScript</span>
+                    <span className={styles.skillTag}>C++</span>
                     <span className={styles.skillTag}>TypeScript</span>
-                    <span className={styles.skillTag}>HTML/CSS</span>
+                    <span className={styles.skillTag}>JavaScript</span>
+                    <span className={styles.skillTag}>Python</span>
                   </div>
                 </div>
                 
@@ -133,17 +131,39 @@ const AboutPage = () => {
                   <h4 className={styles.skillTitle}>Backend</h4>
                   <div className={styles.skillTags}>
                     <span className={styles.skillTag}>Node.js</span>
-                    <span className={styles.skillTag}>Express</span>
+                    <span className={styles.skillTag}>Express.js</span>
+                    <span className={styles.skillTag}>REST APIs</span>
+                    <span className={styles.skillTag}>WebSockets</span>
+                    <span className={styles.skillTag}>gRPC</span>
+                  </div>
+                </div>
+
+                <div className={styles.skillCategory}>
+                  <h4 className={styles.skillTitle}>Data & Messaging</h4>
+                  <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>PostgreSQL</span>
                     <span className={styles.skillTag}>MongoDB</span>
+                    <span className={styles.skillTag}>Redis</span>
+                    <span className={styles.skillTag}>RabbitMQ</span>
+                  </div>
+                </div>
+
+                <div className={styles.skillCategory}>
+                  <h4 className={styles.skillTitle}>Cloud & DevOps</h4>
+                  <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>AWS (EC2, S3)</span>
+                    <span className={styles.skillTag}>Docker</span>
+                    <span className={styles.skillTag}>CI/CD</span>
                   </div>
                 </div>
                 
                 <div className={styles.skillCategory}>
-                  <h4 className={styles.skillTitle}>Tools</h4>
+                  <h4 className={styles.skillTitle}>Core CS</h4>
                   <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>Git</span>
-                    <span className={styles.skillTag}>VS Code</span>
-                    <span className={styles.skillTag}>Figma</span>
+                    <span className={styles.skillTag}>DSA</span>
+                    <span className={styles.skillTag}>System Design</span>
+                    <span className={styles.skillTag}>DBMS</span>
+                    <span className={styles.skillTag}>Computer Networks</span>
                   </div>
                 </div>
               </div>
